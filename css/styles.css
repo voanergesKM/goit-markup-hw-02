@@ -1,0 +1,88 @@
+/* основний колір тексту #757575 */
+/* другорядний колір тексту #212121 */
+/* акцент #2196F3 */
+/* футер-адресса (тел, мейл) rgba(255, 255, 255, 0.6); */
+/* білий #FFFFFF */
+
+
+:root {
+    --primary-fontcolor: #757575;
+    --primary-fontsize: 14px;
+    --sec-fontcolor: #212121;
+    --accent-color: #2196F3;
+    --color-white: #ffffff
+}
+
+.page {
+    background-color: var(--color-white);
+    color: var(--primary-fontcolor);
+    font-size: var(--primary-fontsize);
+}
+.listnone {
+    list-style: none;
+}
+.logo {
+    color: #000000;
+    text-decoration: none;
+}
+.logo-accent{
+    color: var(--accent-color);
+}
+.site-nav .link {
+    color: var(--sec-fontcolor);
+    text-decoration: none;
+}
+.contact .link {
+    color: var(--primary-fontcolor);
+    text-decoration: none;
+}
+.site-nav .link:hover,
+.contact .link:hover,
+.site-nav .link:focus,
+.address .coords:hover,
+.address .contact:hover {
+    color: var(--accent-color);
+}
+.section-title,
+.peculiarity .title,
+.command .title,
+.portfolio-list .title {
+    color: var(--sec-fontcolor);
+}
+.footer {
+    background-color: #2F303A;
+}
+.footer .logo {
+    color: var(--color-white);
+}
+.address a {
+    text-decoration: none;
+}
+.address .list {
+    list-style: none;
+}
+.address .coords {
+    color: var(--color-white);
+}
+.address .contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--color-white);
+    border: var(--color-white);
+}
+.button.secondary {
+    background-color: var(--color-white);
+    color: var(--sec-fontcolor);
+    border: none;
+}
+.portfolio-nav,
+.portfolio-list {
+    list-style: none;
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+
