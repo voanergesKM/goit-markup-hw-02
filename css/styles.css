@@ -17,72 +17,196 @@
     background-color: var(--color-white);
     color: var(--primary-fontcolor);
     font-size: var(--primary-fontsize);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 .listnone {
     list-style: none;
 }
+
 .logo {
     color: #000000;
     text-decoration: none;
+    font-family: Raleway, cursive;
+    font-size: 26px;
+    line-height: 1.19;
 }
+
 .logo-accent{
     color: var(--accent-color);
 }
+
+.site-nav {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
 .site-nav .link {
     color: var(--sec-fontcolor);
     text-decoration: none;
 }
-.contact .link {
+
+.header .contact {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.hero-title {
+    /* color: var(--color-white); */
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero .button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+
+/* portfolio filter */
+
+.filter .button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+/* Page title */
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+/* особенности */
+.peculiarity .title {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.contact .link,
+.portfolio-list .link {
     color: var(--primary-fontcolor);
     text-decoration: none;
 }
+
+.peculiarity .list {
+    line-height: 1.71;
+}
+
+/* Наша команда */
+.command .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.command .position {
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+/* портфолио */
+.portfolio-list .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-list .technology {
+    font-size: 16px;
+    line-height: 1.87;
+}
+
 .site-nav .link:hover,
 .contact .link:hover,
+.contact .link:focus,
 .site-nav .link:focus,
 .address .coords:hover,
-.address .contact:hover {
+.address .contact:hover,
+.address .coords:focus,
+.address .contact:focus {
     color: var(--accent-color);
 }
+
 .section-title,
 .peculiarity .title,
 .command .title,
 .portfolio-list .title {
     color: var(--sec-fontcolor);
 }
+
 .footer {
     background-color: #2F303A;
 }
+
 .footer .logo {
     color: var(--color-white);
 }
+
 .address a {
     text-decoration: none;
 }
+
 .address .list {
     list-style: none;
 }
+
 .address .coords {
     color: var(--color-white);
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: 1.71;
 }
+
 .address .contact {
     color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: 1.71;
 }
+
+.button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
 .button.primary {
     background-color: var(--accent-color);
     color: var(--color-white);
-    border: var(--color-white);
+    /* border: var(--color-white); */
 }
+
 .button.secondary {
     background-color: var(--color-white);
     color: var(--sec-fontcolor);
-    border: none;
+    /* border: none; */
 }
-.portfolio-nav,
+
+.portfolio-section .filter,
 .portfolio-list {
     list-style: none;
 }
-.site-nav .link.current {
+
+.filter .button:hover,
+.filter .button:focus {
     color: var(--accent-color);
 }
 
+/* .portfolio-list .link {
+    text-decoration: none;
+} */
 
