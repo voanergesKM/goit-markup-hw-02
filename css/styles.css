@@ -27,9 +27,9 @@
     background-color: var(--color-white);
 }
 
-.hiden-title {
+/* .hiden-title {
     display: none;
-}
+} */
 
 .site-nav .link.current {
     color: var(--accent-color);
