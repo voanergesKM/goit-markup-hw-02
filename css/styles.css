@@ -4,27 +4,30 @@
 /* футер-адресса (тел, мейл) rgba(255, 255, 255, 0.6); */
 /* білий #FFFFFF */
 
-
 :root {
-    --primary-fontcolor: #757575;
-    --primary-fontsize: 14px;
-    --sec-fontcolor: #212121;
-    --accent-color: #2196F3;
-    --color-white: #ffffff
+  --primary-fontcolor: #757575;
+  --primary-fontsize: 14px;
+  --primary-bg-color: #f5f4fa;
+  --sec-fontcolor: #212121;
+  --accent-color: #2196f3;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --commands-bg-color: #e5e5e5;
+  --footer-bg-color: #2f303a;
+  --address-contact-color: rgba(255, 255, 255, 0.6);
 }
 
-.page {
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-fontcolor);
 
-    background-color: #F5F4FA;
-    color: var(--primary-fontcolor);
-
-    font-size: var(--primary-fontsize);
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
+  font-size: var(--primary-fontsize);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .headers {
-    background-color: var(--color-white);
+  background-color: var(--color-white);
 }
 
 /* .hiden-title {
@@ -32,133 +35,126 @@
 } */
 
 .site-nav .link.current {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .listnone {
-    list-style: none;
+  list-style: none;
 }
 
 .logo {
-    color: #000000;
-    text-decoration: none;
-    font-family: Raleway, cursive;
-    font-size: 26px;
-    line-height: 1.19;
+  color: var(--color-black);
+  text-decoration: none;
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
-.logo-accent{
-    color: var(--accent-color);
+.logo-accent {
+  color: var(--accent-color);
 }
 
 .site-nav {
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link {
-    color: var(--sec-fontcolor);
-    text-decoration: none;
+  color: var(--sec-fontcolor);
+  text-decoration: none;
 }
 
 .header .contact {
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
-
-.hero {
-    background-color: #2F303A;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .hero-title {
+  color: var(--color-white);
 
-    color: var(--color-white);
-
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-align: center;
-    text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .hero-button {
-    text-align: center;
+  text-align: center;
 }
 
 .hero .button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 /* portfolio filter */
 
 .filter .button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
 /* Page title */
 .section-title {
-
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 /* особенности */
 .peculiarity .title {
-    font-weight: 700;
-    line-height: 1.14;
-    text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .peculiarity .text {
-    line-height: 1.71;
+  line-height: 1.71;
 }
 
 .contact .link,
 .portfolio-list .link {
-    color: var(--primary-fontcolor);
-    text-decoration: none;
+  color: var(--primary-fontcolor);
+  text-decoration: none;
 }
-
 
 /* Наша команда */
 
 .commands {
-    background-color: #E5E5E5;
+  background-color: var(--commands-bg-color);
 }
 
 .command .title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
 }
 
 .command .position {
-    font-size: 16px;
-    line-height: 1.18;
+  font-size: 16px;
+  line-height: 1.18;
 }
 
 /* портфолио */
 .portfolio-list .title {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .portfolio-list .technology {
-    font-size: 16px;
-    line-height: 1.87;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 .site-nav .link:hover,
@@ -168,61 +164,65 @@
 .address .coords:hover,
 .address .contact:hover,
 .address .coords:focus,
-.address .contact:focus,
+.address .contact:focus {
+  color: var(--accent-color);
+}
+
 .filter .button:hover,
 .filter .button:focus {
-    color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--color-white);
 }
 
 .section-title,
 .peculiarity .title,
 .command .title,
 .portfolio-list .title {
-    color: var(--sec-fontcolor);
+  color: var(--sec-fontcolor);
 }
 
-.footer {
-    background-color: #2F303A;
+.footer,
+.hero {
+  background-color: var(--footer-bg-color);
 }
 
 .footer .logo {
-    color: var(--color-white);
+  color: var(--color-white);
 }
 
 .address a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 .address .coords {
-    color: var(--color-white);
-    font-family: 'Roboto';
-    font-style: normal;
-    line-height: 1.71;
+  color: var(--color-white);
+  font-family: 'Roboto';
+  font-style: normal;
+  line-height: 1.71;
 }
 
 .address .contact {
-    color: rgba(255, 255, 255, 0.6);
-    font-family: 'Roboto';
-    font-style: normal;
-    line-height: 1.71;
+  color: var(--address-contact-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  line-height: 1.71;
 }
 
 .button {
-    font-family: inherit;
-    cursor: pointer;
+  font-family: inherit;
+  cursor: pointer;
 }
 
 .button.primary {
-    background-color: var(--accent-color);
-    color: var(--color-white);
-    /* border: var(--color-white); */
+  background-color: var(--accent-color);
+  color: var(--color-white);
+  /* border: var(--color-white); */
 }
 
 .button.secondary {
-    background-color: var(--color-white);
-    color: var(--sec-fontcolor);
-    /* border: none; */
+  background-color: var(--color-white);
+  color: var(--sec-fontcolor);
+  /* border: none; */
 }
 
 /* .portfolio-section .filter,
@@ -238,4 +238,3 @@
 /* .portfolio-list .link {
     text-decoration: none;
 } */
-
